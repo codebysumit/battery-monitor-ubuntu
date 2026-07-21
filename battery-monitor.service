@@ -1,0 +1,11 @@
+[Unit]
+Description=Battery Monitor - watches battery level and shows popup alerts
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/python3 %h/battery_monitor.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
