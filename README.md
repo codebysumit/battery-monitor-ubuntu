@@ -31,7 +31,7 @@ A simple Python tool that watches your laptop battery level and warns you with a
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/codebysumit/battery-monitor.git
+git clone https://github.com/codebysumit/battery-monitor-ubuntu.git
 cd battery-monitor
 ```
 
